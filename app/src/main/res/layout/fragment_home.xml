@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tl="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.mijing.mide.mall.ui.home.MainTabFragment">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="48dp"
+                  android:background="@color/colorPrimary"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="16dp"
+                  android:drawableLeft="@drawable/logo_home"
+                  android:drawablePadding="5dp"
+                  android:gravity="center_vertical"
+                  android:shadowColor="#e0e0e0"
+                  android:shadowRadius="4"
+                  android:text="米鲸"
+                  android:textColor="#ffffff"
+                  android:textSize="17sp"/>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_marginBottom="8dp"
+                      android:layout_marginLeft="12dp"
+                      android:layout_marginRight="12dp"
+                      android:layout_marginTop="8dp"
+                      android:layout_weight="1"
+                      android:background="@drawable/shape_home_search_bg"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="10dp"
+                       android:padding="2dp"
+                       android:src="@drawable/search_home_left"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="2dp"
+                      android:text="搜索商品"
+                      android:textColor="#999"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_message_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/msg_home_right"/>
+
+    </LinearLayout>
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:color/white"
+        tl:tl_indicator_color="@color/colorPrimary"
+        tl:tl_indicator_height="1dp"
+        tl:tl_indicator_width_equal_title="true"
+        tl:tl_tab_padding="16dp"
+        tl:tl_textSelectColor="@color/colorPrimary"
+        tl:tl_textUnselectColor="#ff333333"
+        tl:tl_textsize="14sp"
+    />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="88dp"
+        android:background="@color/pager_background">
+    </android.support.v4.view.ViewPager>
+
+</FrameLayout>

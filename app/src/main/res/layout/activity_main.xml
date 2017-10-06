@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mijing.mide.mall.ui.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.2dp"
+          android:background="#aaa"/>
+
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/btn_tab_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/home_text_tab_color"
+            android:textSize="13sp"/>
+
+        <RadioButton
+            android:id="@+id/btn_tab_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:text="新品"
+            android:textColor="@color/home_text_tab_color"
+            android:textSize="13sp"/>
+
+        <RadioButton
+            android:id="@+id/btn_tab_social"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:text="社群"
+            android:textColor="@color/home_text_tab_color"
+            android:textSize="13sp"/>
+
+        <RadioButton
+            android:id="@+id/btn_tab_shopping_cart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:text="购物车"
+            android:textColor="@color/home_text_tab_color"
+            android:textSize="13sp"/>
+
+        <RadioButton
+            android:id="@+id/btn_tab_my_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:text="个人中心"
+            android:textColor="@color/home_text_tab_color"
+            android:textSize="13sp"/>
+    </RadioGroup>
+
+
+</LinearLayout>

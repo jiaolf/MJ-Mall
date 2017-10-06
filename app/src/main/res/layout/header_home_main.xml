@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layout_home_main_header"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+        <com.mijing.mide.mall.widget.autoscrollviewpager.AutoScrollViewPager
+            android:id="@+id/bannerPager"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+        </com.mijing.mide.mall.widget.autoscrollviewpager.AutoScrollViewPager>
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:padding="5dp"/>
+    </FrameLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="68dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="16dp"
+                  android:orientation="horizontal">
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/home_menu_qianggou"/>
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="限时抢购"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/home_menu_icon_mianyou"/>
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="免邮费"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/home_menu_icon_youhuiquan"/>
+
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="优惠券"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/home_menu_icon_miandan"/>
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="免单"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="68dp"
+                  android:layout_marginBottom="16dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="16dp"
+                  android:orientation="horizontal">
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ic_launcher"/>
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="限时抢购"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ic_launcher"/>
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="限时抢购"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ic_launcher"/>
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="限时抢购"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+        >
+
+            <ImageView style="@style/MainFunctionImage"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ic_launcher"/>
+
+            <TextView style="@style/TextMainFunctionLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:text="限时抢购"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

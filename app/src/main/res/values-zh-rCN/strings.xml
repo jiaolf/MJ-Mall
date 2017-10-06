@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">商城</string>
+
+    <!-- ErrorStateView -->
+    <string name="error_network_404">所访问的链接不存在哦~</string>
+    <string name="error_network_busy">服务器繁忙~请再试试</string>
+    <string name="error_network_off">手机网络不太顺畅，请检查网络状态</string>
+    <string name="error_refresh">刷新看看</string>
+    <string name="error_retry">重新加载</string>
+</resources>

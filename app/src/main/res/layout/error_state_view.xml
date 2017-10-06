@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical">
+
+    <ViewStub android:id="@+id/viewstub_empty_data" android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:layout="@layout/layout_empty_data"/>
+
+    <ViewStub android:id="@+id/viewstub_network_off" android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:layout="@layout/layout_network_off"/>
+
+    <ViewStub android:id="@+id/viewstub_request_fail" android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:layout="@layout/layout_request_fail"/>
+
+    <ViewStub android:id="@+id/viewstub_not_found" android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:layout="@layout/layout_not_found"/>
+
+    <ViewStub android:id="@+id/viewstub_loading" android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:layout="@layout/layout_loading"/>
+</merge>
